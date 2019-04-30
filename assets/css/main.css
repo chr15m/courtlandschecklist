@@ -4069,6 +4069,10 @@ input, select, textarea {
 
 	}
 
+#titleBar .toggle {
+  display: none;
+}
+
 #signup {
   font-family: Helvetica, Arial, sans-serif;
 }

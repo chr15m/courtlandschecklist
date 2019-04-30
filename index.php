@@ -53,7 +53,7 @@
               by <a href="https://www.indiehackers.com/csallen/">@csallen</a>,<br />
               to validate your business ideas.</p>
             </header>
-            <span class="image"><img src="images/csallen.jpg" alt="" /></span>
+            <span class="image"><img src="images/startup.jpg" alt="" /></span>
           </div>
           <a href="#checklist" class="goto-next scrolly">Next</a>
         </section>

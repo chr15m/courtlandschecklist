@@ -15,10 +15,10 @@
   <body class="is-preload landing">
     <div id="page-wrapper">
 
-      <!-- Header -->
+      <!-- Header
         <header id="header">
           <h1 id="logo"><a href="https://www.indiehackers.com/csallen/">@csallen</a>'s Business Validation Checklist</h1>
-          <!--<nav id="nav">
+          <nav id="nav">
             <ul>
               <li><a href="index.html">Home</a></li>
               <li>
@@ -41,8 +41,8 @@
               <li><a href="elements.html">Elements</a></li>
               <li><a href="#" class="button primary">Sign Up</a></li>
             </ul>
-          </nav>-->
-        </header>
+          </nav>
+        </header>-->
 
       <!-- Banner -->
         <section id="banner">

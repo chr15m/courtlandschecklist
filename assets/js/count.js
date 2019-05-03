@@ -5,6 +5,6 @@ $(document).ready(function() {
   update_toggles();
 
   function update_toggles() {
-    $("#score").text($("#checklist input[type=checkbox]:checked").length + " / " + toggles.length);
+    $(".score").text($("#checklist input[type=checkbox]:checked").length + " / " + toggles.length);
   }
 });

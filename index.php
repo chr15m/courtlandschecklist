@@ -50,10 +50,8 @@
             <header>
               <h2>Validate your business idea</h2>
               <p>A simple checklist <a href="https://www.indiehackers.com/csallen/post/d5073c226d">shared</a>
-              by <a href="https://www.indiehackers.com/csallen/">@csallen</a>,<br />
-              to validate your business ideas.<br/>
-              <br/>
-              Made by <a href="https://chr15m.github.io/">Chris McCormick</a>.</p>
+              by <a href="https://www.indiehackers.com/csallen/">@csallen</a>.</p>
+              <p>Made by <a href="https://chr15m.github.io/">Chris McCormick</a>.</p>
             </header>
             <span class="image"><img src="images/startup.jpg" alt="" /></span>
           </div>
@@ -72,9 +70,10 @@
       <!-- Five -->
         <section id="checklist" class="wrapper style1">
           <header class="major"><h2>The checklist</h2></header>
-          <?php system("lumo -K -c `cat .classpath` render.cljs"); ?>
+          <h2 id="score-container">Score: <span class="score">0 / 0</span></h2>
+          <?php system("lumo -K -c `cat .classpath` render.cljs"); ?>          
           <header class="major">
-            <h2>Score: <span id="score">0 / 0</span></h2>
+            <h2>Score: <span class="score">0 / 0</span></h2>
           </header>
         </section>
 

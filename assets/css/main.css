@@ -3799,11 +3799,11 @@ input, select, textarea {
 
 			#banner {
 				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
-				min-height: calc(100vh - 44px);
+                                min-height: calc(100vh);
 			}
 
 				#banner:before {
-					height: calc(100vh - 44px);
+					height: calc(100vh);
 				}
 
 				#banner .content {
@@ -3831,7 +3831,7 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
-				padding-top: 44px !important;
+				/*padding-top: 44px !important;*/
 			}
 
 			#titleBar {
@@ -4116,4 +4116,17 @@ input, select, textarea {
   text-align: center;
   font-weight: bold;
   padding: 1em;
+}
+
+#score-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: auto;
+  text-align: center;
+  padding: 0.25em;
+  background-color: #1C1D26;
+  border-bottom: 2px solid #E44C65;
+  z-index: 2;
+  left: 0;
 }

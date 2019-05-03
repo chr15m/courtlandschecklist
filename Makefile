@@ -5,7 +5,9 @@ index.html: index.php .classpath node_modules form.json
 #	lumo -K -c `cat .classpath` render.cljs > form.html
 
 checklist.pdf: questions.txt tomd.py
-	python tomd.py  | pandoc - -t latex -o $@ --toc
+	echo "Courtland's business validation checklist" > title.txt
+	python tomd.py  | pandoc - -t latex -o $@ --toc -B title.txt
+	rm title.txt
 
 node_modules:
 	npm i

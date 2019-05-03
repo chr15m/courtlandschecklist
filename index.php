@@ -41,6 +41,7 @@
       <!-- Five -->
         <section id="checklist" class="wrapper style1">
           <header class="major"><h2>The checklist</h2></header>
+          <div class="align-center"><p>(<a href='checklist.pdf'>Download the PDF</a>)</p></div>
           <h2 id="score-container">Score: <span class="score">0 / 0</span></h2>
           <?php system("lumo -K -c `cat .classpath` render.cljs"); ?>          
           <header class="major">

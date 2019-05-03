@@ -51,7 +51,9 @@
               <h2>Validate your business idea</h2>
               <p>A simple checklist <a href="https://www.indiehackers.com/csallen/post/d5073c226d">shared</a>
               by <a href="https://www.indiehackers.com/csallen/">@csallen</a>,<br />
-              to validate your business ideas.</p>
+              to validate your business ideas.<br/>
+              <br/>
+              Made by <a href="https://chr15m.github.io/">Chris McCormick</a>.</p>
             </header>
             <span class="image"><img src="images/startup.jpg" alt="" /></span>
           </div>
@@ -61,8 +63,7 @@
         <section id="signup" class="wrapper style2 special fade">
           <div class="container">
             <header>
-              <p>Site by Chris McCormick.
-              Sign up to my newsletter to hear about tech I'm building.</p>
+              <p>Sign up to my newsletter to hear about tech I'm building.</p>
             </header>
             <script src="https://mccormick.cx/tinysignup.php?list=invention&message=%20"></script>
           </div>

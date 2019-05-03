@@ -70,7 +70,7 @@
             <!--<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
             <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
             <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>-->
-            <li><a href="https://github.com/chr15m" class="icon fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="https://github.com/chr15m/courtlandschecklist" class="icon fa-github"><span class="label">GitHub</span></a></li>
             <li><a href="mailto:chris@mccormick.cx" class="icon fa-envelope"><span class="label">Email</span></a></li>
           </ul>
           <ul class="copyright">
